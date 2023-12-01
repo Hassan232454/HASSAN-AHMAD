@@ -1,0 +1,14 @@
+#include<fstream>
+#include<iostream>
+#include<string>
+using  namespace std;
+int main()
+{   int a,b,c,d;
+cout<<"enter end number";
+cin>>d;a=1,b=0;cout<<a<<b;
+while(a<d)
+{
+	c=a+b;b=a;
+	cout<<c;a=c;
+}}
+    
